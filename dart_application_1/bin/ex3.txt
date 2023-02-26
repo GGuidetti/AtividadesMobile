@@ -1,0 +1,16 @@
+// Em relação a sintaxe, quais são as variantes na escrita de uma função? 
+Quais são as especificidades e em que caso pode-se utilziar cada uma?
+
+1. Funções regulares: Como o próprio nome diz, é uma função normal que execura uma série de algoritmos 
+        tipoRetorno nomeFuncao(argumentos) {
+        // código da função
+        }
+
+2. Funções de seta: É apenas uma forma mais compacta de se escrever uma função regular e o 'return' é substituído por =>
+        tipoRetorno nomeFuncao(argumentos) => expressao;
+
+3. Funções anônimas: Não tem nome e normalmente são usadas como parametro para outras funções ou atribuidas a variaveis
+        (argumentos) {
+        // código da função
+        }
+
