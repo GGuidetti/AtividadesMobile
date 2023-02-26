@@ -14,3 +14,13 @@ Quais são as especificidades e em que caso pode-se utilziar cada uma?
         // código da função
         }
 
+
+
+Relacionando as atividades anteriores:
+    As funções foram escritas de 4 formas diferentes
+    Com retorno - quando necessitamos que a função retorne um valor especifico para o local onde ela é chamada
+    Sem retorno - quando precisa-se apenas que a função execute as instruções
+    Com parametro - quando precisamos enviar um determinado "contexto" para a função em si
+    Sem parametro - quando a função não necessita de contexto
+
+    Fora isso os parametros podem ser passados como required, nullable(?), nomeados{} e opcionais[]
