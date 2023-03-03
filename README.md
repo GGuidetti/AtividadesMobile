@@ -16,3 +16,10 @@ void addCupomGeral({required String nome}){
  
  addCupomGeral(nome: "jorge");
  
+
+#Function parameter é a função mais comumente utilizada, que recebe um nome e para ser rodada esse nome deve ser chamado no código passando os parâmetros se necessário.
+double multiplicar(double num1, double num2)
+  return num1 * num2;
+}
+Exemplo de chamada:
+multiplicar(5,15)## Nesse caso a função retorna o valor 75 do tipo double;
