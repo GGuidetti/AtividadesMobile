@@ -8,3 +8,11 @@ int somarNumeros(int num1, int num2){
 int somarNumeros(int num1, [int num2=5]){
   return num1 + num2;
 }
+
+#Parametros nomeados são aqueles que ao serem chamados precisam estar acompanhados do nome do parametro
+void addCupomGeral({required String nome}){
+  cuponsValidos.add(nome);
+ }
+ 
+ addCupomGeral(nome: "jorge");
+ 
