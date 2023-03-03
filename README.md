@@ -18,8 +18,22 @@ void addCupomGeral({required String nome}){
  
 
 #Function parameter é a função mais comumente utilizada, que recebe um nome e para ser rodada esse nome deve ser chamado no código passando os parâmetros se necessário.
+#Diferente das AF(Anonymous Functions) e AR(Arrow Functions) elas podem ser chamadas diversas vezes no código escrevendo a implementação somente uma única vez.
 double multiplicar(double num1, double num2)
   return num1 * num2;
 }
 Exemplo de chamada:
 multiplicar(5,15)## Nesse caso a função retorna o valor 75 do tipo double;
+
+#anonymous function é uma função que não tem nome e não pode ser chamada diretamente, ela pode ser utilizada, por exemplo em funções que usam outras funções como parametro
+
+(int num1, int num2){
+  return num1 + num2;
+}
+
+uso:
+
+int multiplicarSoma(
+  (int num1, int num2){
+  return num1 + num2;
+});
