@@ -37,3 +37,6 @@ int multiplicarSoma(
   (int num1, int num2){
   return num1 + num2;
 });
+
+#Arrow function são um tipo de sintaxe utilizada para escrever funções de forma mais condensada, basicamente uma anonima mais resumida
+int somarNumeros(int num1, int num2) => return num1 + num2;
